@@ -3,6 +3,7 @@ import { STRAVA_URL } from './config/general';
 import './App.css';
 import { useEffect } from "react";
 import  Interface from "./components/Interface"
+import Title from "./components/Title";
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-    <h1>hello</h1>
+    <Title />
     <Interface />
     </>
  
