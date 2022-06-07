@@ -4,6 +4,8 @@ import './App.css';
 import { useEffect } from "react";
 import  Interface from "./components/Interface"
 import Title from "./components/Title";
+import React from "react";
+import { connect } from "react-redux";
 
 function App() {
 
@@ -32,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect()(App);
