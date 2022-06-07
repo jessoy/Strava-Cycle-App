@@ -1,0 +1,1 @@
+export const STRAVA_URL = `https://www.strava.com/api/v3/athlete/activities?access_token=75a43cfd058bcc7becfff3fd3daf2f644a991f9b`
