@@ -15,7 +15,7 @@ function App() {
       const result = await axios.get(STRAVA_URL)
       console.log(result)
 
-      dispatch({type: "SETAPIDATA", apiData: result})
+      dispatch({type: "SETAPIDATA", apiData: result.data})
 
 
 
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default connect()(App);
+export default App;
